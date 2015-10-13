@@ -7,14 +7,14 @@
 //
 
 import Foundation
-public class Clientes{
+ public class Clientes{
     
     // propiedades del los clientes
     private var nombre_cliente : String
     private var direccion : String
     
     // iniciacion
-   public  init (nombre_cliente : String,direccion: String){
+    public init (nombre_cliente : String,direccion: String){
         self.nombre_cliente = nombre_cliente
         self.direccion = direccion
         

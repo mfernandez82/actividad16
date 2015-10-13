@@ -41,7 +41,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         // cargando los usuarios y los respectivos clientes asociados a ese usuario
+        
+      //  usuarios += [Usuarios(nombre: "juan", clave: "juan", cliente: [(jorge,555)])]
         usuarios += [Usuarios(nombre: "user1", clave: "123", cliente: [(juan,12333), (victor,1222), (sammy,375673467), (marta,88877),(carlos,9999)]),Usuarios(nombre: "user2", clave: "234", cliente: [(gustavo,12333), (jose,333), (jorge,777),(paola,4444)])]
+        
+        println(usuarios)
+        
         
     }
 

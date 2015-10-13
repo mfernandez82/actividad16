@@ -10,9 +10,9 @@ import Foundation
 public class Usuarios {
     
     // propiedades de los usuarios
-    private var nombre: String
-    private var clave : String
-    private var cliente : [(cliente:Clientes, telefono: Int)]
+     var nombre: String
+     var clave : String
+    var cliente : [(cliente:Clientes, telefono: Int)]
     
     // iniciacion
    public init (nombre: String, clave: String, cliente: Array<(cliente:Clientes, telefono: Int)>) {
