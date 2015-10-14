@@ -10,12 +10,12 @@ import Foundation
 public class Usuarios {
     
     // propiedades de los usuarios
-     var nombre: String
+     var nombre : String
      var clave : String
     var cliente : [(cliente:Clientes, telefono: Int)]
     
     // iniciacion
-   public init (nombre: String, clave: String, cliente: Array<(cliente:Clientes, telefono: Int)>) {
+   public  init (nombre: String, clave: String, cliente: Array<(cliente:Clientes, telefono: Int)>) {
         self.nombre = nombre
         self.clave = clave
         self.cliente = cliente

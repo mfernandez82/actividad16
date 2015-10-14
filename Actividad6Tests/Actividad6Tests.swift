@@ -54,7 +54,7 @@ class Actividad6Tests: XCTestCase {
             
                   ]
         println(revisar)
-        
+       
     }
     
     override func tearDown() {
@@ -77,24 +77,11 @@ class Actividad6Tests: XCTestCase {
     }
     
    
-    func testPerformanceOrdenar(){
+    func testPerformanceOrdenar(arreglo: NSString){
         self.measureBlock(){
+        // ordenando un arreglo utilizando el metodo dump
+            revisar
             
-            // Definimos un array con NSString los cuales no tienen orden
-            
-        /*    NSArray(array: [rev])
-            
-            
-            NSArray * listaSinOrdenar = [NSArray, arrayWithObjects:@"Perro", @"Gato", @"Elefante", @"Avestruz", @"Jirafa", @"Cerdo", nil];
-            
-            // Pintamos en consola el array desordenado
-            NSLog(@"%@",[listaSinOrdenar description]);
-            
-            // Ordenamos el array utilizando una serie de métodos preestablecidos en iOS
-            NSArray *listaOrdenada = [listaSinOrdenar sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
-            
-            // Pintamos ahora en consola el array ordenado
-            NSLog(@"%@",[listaOrdenada description]);*/
         }
         
     }
